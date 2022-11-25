@@ -27,7 +27,7 @@ const Post = ()=>{
 
    </div>
    const _data = (description && !isError) && <div className="p-4 border border-gray-200 rounded shadow  md:p-6 dark:border-gray-700">
-        <h1 className="mb-6 text-6xl text-center capitalize font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-red-600">
+        <h1 className="mb-6 text-2xl lg:text-6xl text-center capitalize font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-red-600">
         {title}
       </h1>
       <div className="my-10">
